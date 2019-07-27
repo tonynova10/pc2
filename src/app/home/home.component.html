@@ -19,8 +19,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4">
-                <app-innovate></app-innovate>
+            <div class="col-sm-4" *ngFor="let work of works">
+                <app-innovate [work]=work></app-innovate>
             </div>
         </div>
     </div>
