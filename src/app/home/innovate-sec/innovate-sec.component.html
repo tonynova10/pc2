@@ -1,0 +1,17 @@
+<section class="sec1" id="innovation">
+    <div class="container">
+        <div class="row">
+            <div class="offset-sm-2 col-sm-8">
+                <div class="headerText text-center">
+                    <h2>Crear algo nuevo</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt quia esse modi est quaerat corporis cupiditate maxime impedit fugiat. Sapiente reiciendis, vero hic facere aut sit natus et reprehenderit officia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" *ngFor="let work of works">
+                <app-innovate [work]=work></app-innovate>
+            </div>
+        </div>
+    </div>
+</section>
