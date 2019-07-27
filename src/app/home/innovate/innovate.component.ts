@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-innovate',
@@ -6,11 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./innovate.component.css']
 })
 export class InnovateComponent implements OnInit {
-  imgSrc: string = 'http://www.mgsarchitecture.in/images/MGS-Architecture/Architects/471-NU-DE-Architecture.jpg'
+  @Input() work;
 
   constructor() { }
 
   ngOnInit() {
+    console.log(this.work.imgSrc);
+    
   }
 
 }
