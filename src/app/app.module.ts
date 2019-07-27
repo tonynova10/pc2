@@ -7,6 +7,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
 import { InnovateComponent } from './home/innovate-sec/innovate/innovate.component';
 import { InnovateSecComponent } from './home/innovate-sec/innovate-sec.component';
+import { ArchitectureSecComponent } from './home/architecture-sec/architecture-sec.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InnovateSecComponent } from './home/innovate-sec/innovate-sec.component
     NavigationComponent,
     HomeComponent,
     InnovateComponent,
-    InnovateSecComponent
+    InnovateSecComponent,
+    ArchitectureSecComponent
   ],
   imports: [
     BrowserModule,

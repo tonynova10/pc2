@@ -11,8 +11,6 @@ export class InnovateComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.work.imgSrc);
-    
   }
 
 }
