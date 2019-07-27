@@ -12,4 +12,21 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  works: Array<object> = [
+    {
+      work: 'Work name',
+      place: 'Place name',
+      imgSrc: 'http://www.mgsarchitecture.in/images/MGS-Architecture/Architects/471-NU-DE-Architecture.jpg'
+    },
+    {
+      work: 'Work name',
+      place: 'Place name',
+      imgSrc: 'http://www.mgsarchitecture.in/images/MGS-Architecture/Architects/471-NU-DE-Architecture.jpg'
+    },
+    {
+      work: 'Work name',
+      place: 'Place name',
+      imgSrc: 'http://www.mgsarchitecture.in/images/MGS-Architecture/Architects/471-NU-DE-Architecture.jpg'
+    }
+  ]
 }
