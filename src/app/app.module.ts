@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { InnovateComponent } from './home/innovate-sec/innovate/innovate.component';
 import { InnovateSecComponent } from './home/innovate-sec/innovate-sec.component';
 import { ArchitectureSecComponent } from './home/architecture-sec/architecture-sec.component';
+import { WorksComponent } from './home/works/works.component';
+import { WorkComponent } from './home/works/work/work.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ArchitectureSecComponent } from './home/architecture-sec/architecture-s
     HomeComponent,
     InnovateComponent,
     InnovateSecComponent,
-    ArchitectureSecComponent
+    ArchitectureSecComponent,
+    WorksComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,

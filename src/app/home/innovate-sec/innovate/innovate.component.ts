@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./innovate.component.css']
 })
 export class InnovateComponent implements OnInit {
-  @Input() work;
+  @Input() work: any;
 
   constructor() { }
 
