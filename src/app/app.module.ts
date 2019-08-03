@@ -10,6 +10,7 @@ import { InnovateSecComponent } from './home/innovate-sec/innovate-sec.component
 import { ArchitectureSecComponent } from './home/architecture-sec/architecture-sec.component';
 import { WorksComponent } from './home/works/works.component';
 import { WorkComponent } from './home/works/work/work.component';
+import { ContactComponent } from './home/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WorkComponent } from './home/works/work/work.component';
     InnovateSecComponent,
     ArchitectureSecComponent,
     WorksComponent,
-    WorkComponent
+    WorkComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
