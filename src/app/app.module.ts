@@ -11,6 +11,10 @@ import { ArchitectureSecComponent } from './home/architecture-sec/architecture-s
 import { WorksComponent } from './home/works/works.component';
 import { WorkComponent } from './home/works/work/work.component';
 import { ContactComponent } from './home/contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faFacebook, faTwitter, faGooglePlus, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 @NgModule({
   declarations: [
@@ -22,13 +26,19 @@ import { ContactComponent } from './home/contact/contact.component';
     ArchitectureSecComponent,
     WorksComponent,
     WorkComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor() {
+    library.add(faFacebook, faTwitter, faGooglePlus, faLinkedin, faInstagram);
+  }
+}
