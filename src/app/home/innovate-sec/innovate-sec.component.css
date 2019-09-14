@@ -1,0 +1,13 @@
+.sec1 {
+    padding: 100px 0;
+    background: #000;
+}
+
+.headerText {
+    color: #fff;
+}
+
+.headerText h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20p;
+}
