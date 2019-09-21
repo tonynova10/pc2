@@ -1,0 +1,43 @@
+.contact {
+    position: relative;
+    padding: 100px 0;
+    background: url('../../../assets/images/background4.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.contact form {
+    position: relative;
+    z-index: 1000;
+}
+
+.contact .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+    height: 50px;
+    border-radius: 0;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.contact .form-control:focus,
+.contact .form-control:hover {
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    box-shadow: none;
+}
+
+.contact .textarea {
+    min-height: 100px;
+}
+
+.contact label {
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.headerText {
+    color: #fff;
+}

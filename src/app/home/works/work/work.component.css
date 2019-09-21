@@ -27,7 +27,8 @@
     font-size: 1.5rem;
 }
 
-.btnD2 {
+.btnD2,
+.btnD2:hover {
     background: #262626;
     color: #fff;
     border-radius: 30px;
