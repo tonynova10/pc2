@@ -62,3 +62,14 @@ p {
     font-size: 1.3rem;
 }
 
+.btnD1 {
+    border: 2px solid #fff;
+    color: #000;
+    background: #fff;
+    border-radius: 50px;
+    padding: 15px 50px;
+    font-size: 1.15rem;
+    outline: none;
+    font-weight: 500;
+    margin-top: 20px;
+}
