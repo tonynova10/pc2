@@ -13,7 +13,8 @@ p {
 }
 
 .banner:before,
-.sec2:before {
+.sec2:before,
+.contact:before {
     content: '';
     position: absolute;
     top: 0;
@@ -25,7 +26,8 @@ p {
 }
 
 .banner:after,
-.sec2:after {
+.sec2:after,
+.contact:after {
     content: '';
     position: absolute;
     bottom: 0;
