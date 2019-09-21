@@ -18,6 +18,10 @@ header {
     background: #ffffff;
 }
 
+.navbar-light .navbar-nav .active>.nav-link:hover{
+    color: #000;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255,255,255,.8);
 }
