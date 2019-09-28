@@ -29,6 +29,13 @@
     box-shadow: none;
 }
 
+.contact .form-control:focus.ng-invalid.ng-touched,
+.contact .form-control:hover.ng-invalid.ng-touched {
+    border: none;
+    border-bottom: 2px solid rgba(255, 0, 0, 1);
+    box-shadow: none;
+}
+
 .contact .textarea {
     min-height: 100px;
 }
@@ -40,4 +47,15 @@
 
 .headerText {
     color: #fff;
+}
+
+.warning {
+    color: #fff;
+    font-size: 110%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
